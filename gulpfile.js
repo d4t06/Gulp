@@ -54,7 +54,7 @@ function watch() {
 function watch_self() {
    browserSync.init({
       server: {
-         baseDir: "./"
+         baseDir: "./app/sidebar"
       },
       open: false
    })
